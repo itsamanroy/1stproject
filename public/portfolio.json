@@ -9,7 +9,7 @@
   "email": "aarav@example.com",
   "socials": {
     "github": "https://github.com/",
-    "linkedin": "https://linkedin.com/"
+    "linkedin": "https://www.linkedin.com/feed/"
   },
   "skills": [
     { "category": "Frontend", "items": ["HTML", "CSS", "JavaScript", "React.js"] },

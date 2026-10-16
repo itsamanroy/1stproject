@@ -8,15 +8,15 @@ function Skills({skills}) {
           {
             skills.map((group)=>(
               <div className="card" key = {group.category}>
-            <h3>{group.category}</h3>
-            <div className="badges">
-             {
-              group.items.map((item)=>(
-                 <span className="badge" key={item}>{item}</span>
-              ))
-             }
-            </div>
-          </div>
+                <h3>{group.category}</h3>
+                <div className="badges">
+                  {
+                    group.items.map((item)=>(
+                      <span className="badge"key={item}>{item}</span>
+                    ))
+                  }
+                </div>
+              </div>
             ))
           }
         </div>

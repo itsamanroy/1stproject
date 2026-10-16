@@ -6,7 +6,7 @@ function ProjectCard({project}) {
       <div className="project-image">
         {
           project.image ? (
-            <img src={project.image} alt={project.title} />
+            <img src={project.image} alt={project.title}/>
           ):(
             <span className="image-placeholder">{project.title[0]}</span>
           )
@@ -19,7 +19,7 @@ function ProjectCard({project}) {
       <div className="badges">
         {
           project.technologies.map((tech)=>(
-            <span className="badge small"></span>
+            <span className="badge small" key={tech}>{tech}</span>
           ))
         }
       </div>
